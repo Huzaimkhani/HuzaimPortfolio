@@ -1,0 +1,59 @@
+/* General Styling */
+body {
+    background-color: #101820;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1, h2 {
+    font-weight: bold;
+    color: #00D1B2;
+}
+
+/* Landing Section */
+#landing {
+    padding: 100px 0;
+    background: url('images/nasa_bg.jpg') no-repeat center center;
+    background-size: cover;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+}
+
+#landing h1 {
+    font-size: 3rem;
+}
+
+#landing p {
+    font-size: 1.5rem;
+    color: #00D1B2;
+}
+
+/* Experience Section */
+.experience-card {
+    background-color: #1A1A1D;
+    border: none;
+    margin-bottom: 30px;
+    transition: transform 0.3s ease;
+}
+
+.experience-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 209, 178, 0.2);
+}
+
+/* Achievements Section */
+.trophy img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.trophy:hover img {
+    transform: rotateY(360deg);
+}
+
+.trophy p {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #00D1B2;
+    margin-top: 10px;
+}
